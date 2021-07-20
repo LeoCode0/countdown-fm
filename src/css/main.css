@@ -93,6 +93,8 @@ ul {
 .top-bg::after {
   top: 5px;
   background-color: var(--very-dark-blue);
+  opacity: 0.2;
+  z-index: 2;
 }
 
 .bottom-bg::before {
@@ -159,4 +161,28 @@ ul {
 .social-media__item-img {
   width: 25px;
   height: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .number_container {
+    margin: 0 10px;
+  }
+
+  .top-bg,
+  .bottom-bg,
+  .bottom-bg::before,
+  .top-bg::after {
+    width: 140px;
+    height: 56px;
+    max-height: none;
+    max-width: none;
+  }
+
+  .time__item .number {
+    font-size: 6rem;
+  }
+
+  .footer {
+    background: url("../images/pattern-hills.svg") right/100% 25vh;
+  }
 }
