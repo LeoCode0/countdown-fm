@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend mentor solution](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-/hub/responsive-counter-using-flex-Dy95o5RpaL)
+- Live Site URL: [Live URL](https://countdown-fm.vercel.app/)
 
 ## My process
 
@@ -53,7 +53,7 @@ I work with CSS custom properties and intervals from JS.
   --soft-red: hsl(345, 95%, 68%);
 }
 ```
-
+And intervals with JavaScript
 ```js
 let myInterval = setInterval(()  => ...)
 ```
